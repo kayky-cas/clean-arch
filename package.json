@@ -1,0 +1,29 @@
+{
+  "name": "clean-arch",
+  "version": "0.0.1",
+  "description": "This is a Typescript REST API developed using Clean Architecture ",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "sucrase ./src -d ./dist --transforms typescript,imports",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "clean-arch"
+  },
+  "keywords": [
+    "typescript",
+    "api",
+    "rest",
+    "clean",
+    "architecture"
+  ],
+  "author": "Kayky Casagrande",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "sucrase": "^3.20.1",
+    "typescipt": "^1.0.0"
+  }
+}
